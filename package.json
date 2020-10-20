@@ -1,0 +1,20 @@
+{
+  "name": "app.portal",
+  "version": "1.0.0",
+  "description": "This is school management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuel355/app.portal.git"
+  },
+  "author": "Samuel Osei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuel355/app.portal/issues"
+  },
+  "homepage": "https://github.com/samuel355/app.portal#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}
