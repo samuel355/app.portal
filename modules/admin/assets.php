@@ -4,7 +4,7 @@
         <div class="main-wrapper">
 		
 			<!-- Header -->
-            <?php include "includes/header.php";?>
+            <?php include "includes/top-nav.php";?>
 			<!-- /Header -->
 
             <!-- Sidebar -->

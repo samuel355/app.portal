@@ -21,6 +21,15 @@
     <!-- Lineawesome CSS -->
     <link rel="stylesheet" href="assets/css/line-awesome.min.css">
 
+    <!-- Datatable CSS -->
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css">
+
+    <!-- Select2 CSS -->
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+
+    <!-- Datetimepicker CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
+
     <!-- Chart CSS -->
     <link rel="stylesheet" href="assets/plugins/morris/morris.css">
 

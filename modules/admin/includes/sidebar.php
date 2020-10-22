@@ -34,7 +34,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="clients.php"><i class="la la-book"></i> <span>Courses</span></a>
+                    <a href="courses.php"><i class="la la-book"></i> <span>Courses</span></a>
                 </li>
                 <li class="menu-title">
                     <span>HR</span>
@@ -58,9 +58,6 @@
                 </li>
                 <li class="menu-title">
                     <span>Administration</span>
-                </li>
-                <li>
-                    <a href="assets.php"><i class="la la-object-ungroup"></i> <span>Assets</span></a>
                 </li>
                 <li>
                     <a href="knowledgebase.php"><i class="la la-question"></i> <span>Knowledgebase</span></a>
