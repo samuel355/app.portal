@@ -56,12 +56,6 @@
                         <li><a href="payroll-items"> Payroll Items </a></li>
                     </ul>
                 </li>
-                <li class="menu-title">
-                    <span>Administration</span>
-                </li>
-                <li>
-                    <a href="knowledgebase"><i class="la la-question"></i> <span>Knowledgebase</span></a>
-                </li>
                 <li>
                     <a href="settings"><i class="la la-cog"></i> <span>Settings</span></a>
                 </li>

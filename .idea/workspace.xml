@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19380339-5053-44e3-b609-4115eee29290" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/admin/courses-list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/course-detail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/courses-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/courses-list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/admin/courses.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/courses.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/admin/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/includes/sidebar.php" afterDir="false" />
     </list>
@@ -79,7 +80,7 @@
       <workItem from="1603216509070" duration="585000" />
       <workItem from="1603284675190" duration="6566000" />
       <workItem from="1603293225842" duration="26610000" />
-      <workItem from="1603382493134" duration="2642000" />
+      <workItem from="1603382493134" duration="4234000" />
     </task>
     <servers />
   </component>

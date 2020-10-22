@@ -42,7 +42,7 @@
                     <div class="col-12 col-md-6 col-lg-4 d-flex">
                         <div class="card flex-fill">
                             <div class="card-header">
-                                Oct. 22, 2020. At 8:23 AM
+                                This is the header
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Special title treatment</h5>

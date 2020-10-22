@@ -68,7 +68,7 @@
 								</div>
 								<h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
 								<h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-								<a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
+								<a href="course-detail" class="btn btn-white btn-sm m-t-10">View Details</a>
 							</div>
 						</div>
                         <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
@@ -85,7 +85,7 @@
                                 </div>
                                 <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
                                 <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
+                                <a href="course-detail" class="btn btn-white btn-sm m-t-10">View Details</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
@@ -102,7 +102,7 @@
                                 </div>
                                 <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
                                 <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
+                                <a href="course-detail" class="btn btn-white btn-sm m-t-10">View Details</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
@@ -119,7 +119,7 @@
                                 </div>
                                 <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
                                 <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
+                                <a href="course-detail" class="btn btn-white btn-sm m-t-10">View Details</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
@@ -136,7 +136,7 @@
                                 </div>
                                 <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
                                 <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
+                                <a href="course-detail" class="btn btn-white btn-sm m-t-10">View Details</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
@@ -153,7 +153,7 @@
                                 </div>
                                 <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
                                 <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
+                                <a href="course-detail" class="btn btn-white btn-sm m-t-10">View Details</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
@@ -170,7 +170,7 @@
                                 </div>
                                 <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
                                 <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
+                                <a href="course-detail" class="btn btn-white btn-sm m-t-10">View Details</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
@@ -187,19 +187,19 @@
                                 </div>
                                 <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
                                 <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
+                                <a href="course-detail" class="btn btn-white btn-sm m-t-10">View Details</a>
                             </div>
                         </div>
 					</div>
                 </div>
 				<!-- /Page Content -->
 			
-				<!-- Add Client Modal -->
+				<!-- Add Course Modal -->
 				<div id="add_client" class="modal custom-modal fade" role="dialog">
 					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title">Add Client</h5>
+								<h5 class="modal-title">Add Course</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 								</button>
@@ -209,19 +209,13 @@
 									<div class="row">
 										<div class="col-md-6">
 											<div class="form-group">
-												<label class="col-form-label">First Name <span class="text-danger">*</span></label>
+												<label class="col-form-label">Cordinator First Name <span class="text-danger">*</span></label>
 												<input class="form-control" type="text">
 											</div>
 										</div>
 										<div class="col-md-6">
 											<div class="form-group">
-												<label class="col-form-label">Last Name</label>
-												<input class="form-control" type="text">
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="form-group">
-												<label class="col-form-label">Username <span class="text-danger">*</span></label>
+												<label class="col-form-label">Cordinator Last Name</label>
 												<input class="form-control" type="text">
 											</div>
 										</div>
@@ -233,177 +227,16 @@
 										</div>
 										<div class="col-md-6">
 											<div class="form-group">
-												<label class="col-form-label">Password</label>
-												<input class="form-control" type="password">
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="form-group">
-												<label class="col-form-label">Confirm Password</label>
-												<input class="form-control" type="password">
-											</div>
-										</div>
-										<div class="col-md-6">  
-											<div class="form-group">
-												<label class="col-form-label">Client ID <span class="text-danger">*</span></label>
-												<input class="form-control floating" type="text">
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="form-group">
 												<label class="col-form-label">Phone </label>
 												<input class="form-control" type="text">
 											</div>
 										</div>
 										<div class="col-md-6">
 											<div class="form-group">
-												<label class="col-form-label">Company Name</label>
+												<label class="col-form-label">Course Name</label>
 												<input class="form-control" type="text">
 											</div>
 										</div>
-									</div>
-									<div class="table-responsive m-t-15">
-										<table class="table table-striped custom-table">
-											<thead>
-												<tr>
-													<th>Module Permission</th>
-													<th class="text-center">Read</th>
-													<th class="text-center">Write</th>
-													<th class="text-center">Create</th>
-													<th class="text-center">Delete</th>
-													<th class="text-center">Import</th>
-													<th class="text-center">Export</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Projects</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Tasks</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Chat</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Estimates</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Invoices</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Timing Sheets</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-												</tr>
-											</tbody>
-										</table>
 									</div>
 									<div class="submit-section">
 										<button class="btn btn-primary submit-btn">Submit</button>
@@ -413,14 +246,14 @@
 						</div>
 					</div>
 				</div>
-				<!-- /Add Client Modal -->
+				<!-- /Add Course Modal -->
 				
-				<!-- Edit Client Modal -->
+				<!-- Edit Cordinator Modal -->
 				<div id="edit_client" class="modal custom-modal fade" role="dialog">
 					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title">Edit Client</h5>
+								<h5 class="modal-title">Edit Cordinator</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 								</button>
@@ -452,21 +285,9 @@
 												<input class="form-control floating" value="barrycuda@example.com" type="email">
 											</div>
 										</div>
-										<div class="col-md-6">
-											<div class="form-group">
-												<label class="col-form-label">Password</label>
-												<input class="form-control" value="barrycuda" type="password">
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="form-group">
-												<label class="col-form-label">Confirm Password</label>
-												<input class="form-control" value="barrycuda" type="password">
-											</div>
-										</div>
 										<div class="col-md-6">  
 											<div class="form-group">
-												<label class="col-form-label">Client ID <span class="text-danger">*</span></label>
+												<label class="col-form-label">Cordinator ID <span class="text-danger">*</span></label>
 												<input class="form-control floating" value="CLT-0001" type="text">
 											</div>
 										</div>
@@ -478,153 +299,10 @@
 										</div>
 										<div class="col-md-6">
 											<div class="form-group">
-												<label class="col-form-label">Company Name</label>
+												<label class="col-form-label">Course Name</label>
 												<input class="form-control" type="text" value="Global Technologies">
 											</div>
 										</div>
-									</div>
-									<div class="table-responsive m-t-15">
-										<table class="table table-striped custom-table">
-											<thead>
-												<tr>
-													<th>Module Permission</th>
-													<th class="text-center">Read</th>
-													<th class="text-center">Write</th>
-													<th class="text-center">Create</th>
-													<th class="text-center">Delete</th>
-													<th class="text-center">Import</th>
-													<th class="text-center">Export</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Projects</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Tasks</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Chat</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Estimates</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Invoices</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Timing Sheets</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-												</tr>
-											</tbody>
-										</table>
 									</div>
 									<div class="submit-section">
 										<button class="btn btn-primary submit-btn">Save</button>
@@ -642,7 +320,7 @@
 						<div class="modal-content">
 							<div class="modal-body">
 								<div class="form-header">
-									<h3>Delete Client</h3>
+									<h3>Delete Course</h3>
 									<p>Are you sure want to delete?</p>
 								</div>
 								<div class="modal-btn delete-action">
