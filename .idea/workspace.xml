@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19380339-5053-44e3-b609-4115eee29290" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/admin/courses.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/courses-list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/admin/assets.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/assets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/courses.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/courses.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/admin/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/includes/sidebar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/students" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,9 +45,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\app.portal\modules\admin" />
       <recent name="C:\xampp\htdocs\app.portal\modules\students" />
       <recent name="C:\xampp\htdocs\app.portal\modules\cordinator" />
-      <recent name="C:\xampp\htdocs\app.portal\modules\admin" />
       <recent name="C:\xampp\htdocs\app.portal" />
       <recent name="C:\xampp\htdocs\app.portal\images" />
     </key>
@@ -80,7 +79,7 @@
       <workItem from="1603216509070" duration="585000" />
       <workItem from="1603284675190" duration="6566000" />
       <workItem from="1603293225842" duration="26610000" />
-      <workItem from="1603382493134" duration="623000" />
+      <workItem from="1603382493134" duration="2642000" />
     </task>
     <servers />
   </component>

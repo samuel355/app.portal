@@ -30,8 +30,8 @@
 							<div class="col-auto float-right ml-auto">
 								<a href="#" class="btn add-btn" data-toggle="modal" data-target="#add_client"><i class="fa fa-plus"></i> Add Course</a>
 								<div class="view-icons">
-									<a href="courses" class="grid-view btn btn-link active"><i class="fa fa-th"></i></a>
-									<a href="courses-list" class="list-view btn btn-link"><i class="fa fa-bars"></i></a>
+									<a href="courses" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
+									<a href="courses-list" class="list-view btn btn-link active"><i class="fa fa-bars"></i></a>
 								</div>
 							</div>
 						</div>
@@ -40,7 +40,6 @@
 					
 					<!-- Search Filter -->
 					<div class="row filter-row">
-
 						<div class="col-sm-6">
 							<div class="form-group form-focus">
 								<input type="text" class="form-control floating">
@@ -52,154 +51,195 @@
 						</div>     
                     </div>
 					<!-- Search Filter -->
-					
-					<div class="row staff-grid-row">
-						<div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
-							<div class="profile-widget">
-								<div class="profile-img">
-									<a href="client-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-								</div>
-								<div class="dropdown profile-action">
-									<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                </div>
-								</div>
-								<h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
-								<h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-								<a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
+
+					<div class="row">
+						<div class="col-md-12">
+							<div class="table-responsive">
+								<table class="table table-striped custom-table datatable">
+									<thead>
+										<tr>
+											<th>Course Name</th>
+											<th>Coordinator</th>
+											<th>Email</th>
+											<th>Mobile</th>
+											<th class="text-right">Action</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a href="client-profile.php" class="avatar"><img src="assets/img/profiles/avatar-19.jpg" alt=""></a>
+													<a href="client-profile.php">Global Technologies</a>
+												</h2>
+											</td>
+											<td>Barry Cuda</td>
+											<td>barrycuda@example.com</td>
+											<td>9876543210</td>
+											<td class="text-right">
+												<div class="dropdown dropdown-action">
+													<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a href="client-profile.php" class="avatar"><img src="assets/img/profiles/avatar-29.jpg" alt=""></a>
+													<a href="client-profile.php">Delta Infotech</a>
+												</h2>
+											</td>
+											<td>Tressa Wexler</td>
+											<td>tressawexler@example.com</td>
+											<td>9876543210</td>
+											<td class="text-right">
+												<div class="dropdown dropdown-action">
+													<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a href="client-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-07.jpg"></a>
+													<a href="client-profile.php">Cream Inc</a>
+												</h2>
+											</td>
+											<td>Ruby Bartlett</td>
+											<td>rubybartlett@example.com</td>
+											<td>9876543210</td>
+											<td class="text-right">
+												<div class="dropdown dropdown-action">
+													<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a href="client-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-06.jpg"></a>
+													<a href="client-profile.php">Wellware Company</a>
+												</h2>
+											</td>
+											<td>Misty Tison</td>
+											<td>mistytison@example.com</td>
+											<td>9876543210</td>
+											<td class="text-right">
+												<div class="dropdown dropdown-action">
+													<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a href="client-profile.php" class="avatar"><img src="assets/img/profiles/avatar-14.jpg" alt=""></a>
+													<a href="client-profile.php">Mustang Technologies</a>
+												</h2>
+											</td>
+											<td>Daniel Deacon</td>
+											<td>danieldeacon@example.com</td>
+											<td>9876543210</td>
+											<td class="text-right">
+												<div class="dropdown dropdown-action">
+													<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a href="client-profile.php" class="avatar"><img src="assets/img/profiles/avatar-18.jpg" alt=""></a>
+													<a href="client-profile.php">International Software Inc</a>
+												</h2>
+											</td>
+											<td>Walter Weaver</td>
+											<td>walterweaver@example.com</td>
+											<td>9876543210</td>
+											<td class="text-right">
+												<div class="dropdown dropdown-action">
+													<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a href="client-profile.php" class="avatar"><img src="assets/img/profiles/avatar-28.jpg" alt=""></a>
+													<a href="client-profile.php">Mercury Software Inc</a>
+												</h2>
+											</td>
+											<td>Amanda Warren</td>
+											<td>amandawarren@example.com</td>
+											<td>9876543210</td>
+											<td class="text-right">
+												<div class="dropdown dropdown-action">
+													<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<h2 class="table-avatar">
+													<a href="client-profile.php" class="avatar"><img src="assets/img/profiles/avatar-22.jpg" alt=""></a>
+													<a href="client-profile.php">Carlson Tech</a>
+												</h2>
+											</td>
+											<td>Betty Carlson</td>
+											<td>bettycarlson@example.com</td>
+											<td>9876543210</td>
+											<td class="text-right">
+												<div class="dropdown dropdown-action">
+													<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+														<a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
 						</div>
-                        <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
-                            <div class="profile-widget">
-                                <div class="profile-img">
-                                    <a href="client-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-                                </div>
-                                <div class="dropdown profile-action">
-                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                    </div>
-                                </div>
-                                <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
-                                <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
-                            <div class="profile-widget">
-                                <div class="profile-img">
-                                    <a href="client-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-                                </div>
-                                <div class="dropdown profile-action">
-                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                    </div>
-                                </div>
-                                <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
-                                <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
-                            <div class="profile-widget">
-                                <div class="profile-img">
-                                    <a href="client-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-                                </div>
-                                <div class="dropdown profile-action">
-                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                    </div>
-                                </div>
-                                <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
-                                <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
-                            <div class="profile-widget">
-                                <div class="profile-img">
-                                    <a href="client-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-                                </div>
-                                <div class="dropdown profile-action">
-                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                    </div>
-                                </div>
-                                <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
-                                <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
-                            <div class="profile-widget">
-                                <div class="profile-img">
-                                    <a href="client-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-                                </div>
-                                <div class="dropdown profile-action">
-                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                    </div>
-                                </div>
-                                <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
-                                <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
-                            <div class="profile-widget">
-                                <div class="profile-img">
-                                    <a href="client-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-                                </div>
-                                <div class="dropdown profile-action">
-                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                    </div>
-                                </div>
-                                <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
-                                <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
-                            <div class="profile-widget">
-                                <div class="profile-img">
-                                    <a href="client-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-                                </div>
-                                <div class="dropdown profile-action">
-                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_client"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_client"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                    </div>
-                                </div>
-                                <h4 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Introduction to Mechanics</a></h4>
-                                <h5 class="user-name m-t-10 mb-0 text-ellipsis"><a href="client-profile.php">Barry Cuda</a></h5>
-                                <a href="client-profile.php" class="btn btn-white btn-sm m-t-10">View Details</a>
-                            </div>
-                        </div>
 					</div>
                 </div>
 				<!-- /Page Content -->
 			
-				<!-- Add Client Modal -->
+				<!-- Add Course Modal -->
 				<div id="add_client" class="modal custom-modal fade" role="dialog">
 					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title">Add Client</h5>
+								<h5 class="modal-title">Add Course</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 								</button>
@@ -677,11 +717,15 @@
 		<!-- Slimscroll JS -->
 		<script src="assets/js/jquery.slimscroll.min.js"></script>
 		
+		<!-- Datatable JS -->
+		<script src="assets/js/jquery.dataTables.min.js"></script>
+		<script src="assets/js/dataTables.bootstrap4.min.js"></script>
+		
 		<!-- Select2 JS -->
 		<script src="assets/js/select2.min.js"></script>
 		
 		<!-- Custom JS -->
 		<script src="assets/js/app.js"></script>
-		
+
     </body>
 </html>
