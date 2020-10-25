@@ -22,7 +22,7 @@
 					<div class="page-header">
 						<div class="row">
 							<div class="col-sm-12">
-								<h3 class="page-title">Welcome Admin!</h3>
+								<h3 class="page-title">Welcome Coordinator!</h3>
 								<ul class="breadcrumb">
 									<li class="breadcrumb-item active">Dashboard</li>
 								</ul>
@@ -36,67 +36,7 @@
                     <!-- /main top -->
 
                     <div class="row">
-						<div class="col-md-6 d-flex">
-							<div class="card card-table flex-fill">
-								<div class="card-header">
-									<h3 class="card-title mb-0">Invoices</h3>
-								</div>
-								<div class="card-body">
-									<div class="table-responsive">
-										<table class="table table-nowrap custom-table mb-0">
-											<thead>
-												<tr>
-													<th>Invoice ID</th>
-													<th>Client</th>
-													<th>Due Date</th>
-													<th>Total</th>
-													<th>Status</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td><a href="invoice-view.php">#INV-0001</a></td>
-													<td>
-														<h2><a href="#">Global Technologies</a></h2>
-													</td>
-													<td>11 Mar 2019</td>
-													<td>$380</td>
-													<td>
-														<span class="badge bg-inverse-warning">Partially Paid</span>
-													</td>
-												</tr>
-												<tr>
-													<td><a href="invoice-view.php">#INV-0002</a></td>
-													<td>
-														<h2><a href="#">Delta Infotech</a></h2>
-													</td>
-													<td>8 Feb 2019</td>
-													<td>$500</td>
-													<td>
-														<span class="badge bg-inverse-success">Paid</span>
-													</td>
-												</tr>
-												<tr>
-													<td><a href="invoice-view.php">#INV-0003</a></td>
-													<td>
-														<h2><a href="#">Cream Inc</a></h2>
-													</td>
-													<td>23 Jan 2019</td>
-													<td>$60</td>
-													<td>
-														<span class="badge bg-inverse-danger">Unpaid</span>
-													</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-								</div>
-								<div class="card-footer">
-									<a href="invoices.php">View all invoices</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 d-flex">
+						<div class="col-md-12 d-flex">
 							<div class="card card-table flex-fill">
 								<div class="card-header">
 									<h3 class="card-title mb-0">Payments</h3>
@@ -153,7 +93,7 @@
 					</div>
 					
 					<div class="row">
-						<div class="col-md-6 d-flex">
+						<div class="col-md-12 d-flex">
 							<div class="card card-table flex-fill">
 								<div class="card-header">
 									<h3 class="card-title mb-0">Students</h3>
@@ -284,137 +224,6 @@
 								</div>
 							</div>
 						</div>
-                        <div class="col-md-6 d-flex">
-                            <div class="card card-table flex-fill">
-                                <div class="card-header">
-                                    <h3 class="card-title mb-0">Coordinators</h3>
-                                </div>
-                                <div class="card-body">
-                                    <div class="table-responsive">
-                                        <table class="table custom-table mb-0">
-                                            <thead>
-                                            <tr>
-                                                <th>Name</th>
-                                                <th>Email</th>
-                                                <th>ID</th>
-                                                <th class="text-right">Action</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>
-                                                    <h2 class="table-avatar">
-                                                        <a href="coordinator-profile" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-                                                        <a href="coordinator-profile">Barry Cuda <span>CEO</span></a>
-                                                    </h2>
-                                                </td>
-                                                <td>barrycuda@example.com</td>
-                                                <td>
-                                                    #CO-547
-                                                </td>
-                                                <td class="text-right">
-                                                    <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                                        <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_coordinator"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_coordinator"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h2 class="table-avatar">
-                                                        <a href="coordinator-profile" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-                                                        <a href="coordinator-profile">Tressa Wexler <span>Manager</span></a>
-                                                    </h2>
-                                                </td>
-                                                <td>tressawexler@example.com</td>
-                                                <td>
-                                                    #CO-547
-                                                </td>
-                                                <td class="text-right">
-                                                    <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                                        <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_coordinator"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_coordinator"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h2 class="table-avatar">
-                                                        <a href="coordinator-profile" class="avatar"><img alt="" src="assets/img/profiles/avatar-07.jpg"></a>
-                                                        <a href="coordinator-profile">Ruby Bartlett <span>CEO</span></a>
-                                                    </h2>
-                                                </td>
-                                                <td>rubybartlett@example.com</td>
-                                                <td>
-                                                    #CO-547
-                                                </td>
-                                                <td class="text-right">
-                                                    <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                                        <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_coordinator"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_coordinator"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h2 class="table-avatar">
-                                                        <a href="coordinator-profile" class="avatar"><img alt="" src="assets/img/profiles/avatar-06.jpg"></a>
-                                                        <a href="coordinator-profile"> Misty Tison <span>CEO</span></a>
-                                                    </h2>
-                                                </td>
-                                                <td>mistytison@example.com</td>
-                                                <td>
-                                                    #STD_977
-                                                </td>
-                                                <td class="text-right">
-                                                    <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                                        <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_coordinator"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_coordinator"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h2 class="table-avatar">
-                                                        <a href="coordinator-profile" class="avatar"><img alt="" src="assets/img/profiles/avatar-14.jpg"></a>
-                                                        <a href="coordinator-profile"> Daniel Deacon <span>CEO</span></a>
-                                                    </h2>
-                                                </td>
-                                                <td>danieldeacon@example.com</td>
-                                                <td>
-                                                    #CO-547
-                                                </td>
-                                                <td class="text-right">
-                                                    <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-                                                        <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_coordinator"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_coordinator"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                                <div class="card-footer">
-                                    <a href="coordinators-list">View all Coordinators</a>
-                                </div>
-                            </div>
-                        </div>
 					</div>
 				
 				</div>

@@ -15,7 +15,7 @@
 							<form method="post" action="#">
 								<div class="row gtr-uniform">
 									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" value="" placeholder="Your ID" />
+										<input type="text" name="demo-name" value="" placeholder="Your username" />
 									</div>
 								</div>
 								<div class="row gtr-uniform" style="margin-top: 1rem">

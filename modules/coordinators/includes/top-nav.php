@@ -18,7 +18,7 @@
 
     <!-- Header Title -->
     <div class="page-title-box">
-        <h3>Admin Dashboard</h3>
+        <h3>Coordinator Dashboard</h3>
     </div>
     <!-- /Header Title -->
 
@@ -259,11 +259,10 @@
             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
 							<span class="user-img"><img src="assets/img/profiles/avatar-21.jpg" alt="">
 							<span class="status online"></span></span>
-                <span>Admin</span>
+                <span>Coordinator</span>
             </a>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="admin-profile">My Profile</a>
-                <a class="dropdown-item" href="settings">Settings</a>
+                <a class="dropdown-item" href="coordinator-profile">My Profile</a>
                 <a class="dropdown-item" href="logout">Logout</a>
             </div>
         </li>
@@ -275,7 +274,6 @@
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
         <div class="dropdown-menu dropdown-menu-right">
             <a class="dropdown-item" href="profile.php">My Profile</a>
-            <a class="dropdown-item" href="settings.php">Settings</a>
             <a class="dropdown-item" href="login.php">Logout</a>
         </div>
     </div>
