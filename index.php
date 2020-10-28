@@ -24,19 +24,19 @@
 										<img class="icon style1 solid major" src="images/male.png" alt="">
 										<h3>Students</h3>
 										<p>Login to access the student portal</p>
-										<a href="student-login" class="button">Login</a>
+										<a href="modules/students/login" class="button">Login</a>
 									</li>
 									<li>
 										<img class="icon style1 solid major" src="images/workers.png" alt="">
 										<h3>Cordinators</h3>
 										<p>Login to access your dashbaord</p>
-										<a href="cordinator-login" class="button">Login</a>
+										<a href="modules/coordinators/login" class="button">Login</a>
 									</li>
 									<li>
 										<img class="icon style1 solid major" src="images/male210_2.png" alt="">
 										<h3>Administrator</h3>
 										<p>Login to access the Dashboard</p>
-										<a href="admin-login" class="button">Login</a>
+										<a href="modules/admin/login" class="button">Login</a>
 									</li>
 								</ul>
 							</section>

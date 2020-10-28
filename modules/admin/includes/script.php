@@ -14,8 +14,18 @@
 <script src="assets/plugins/raphael/raphael.min.js"></script>
 <script src="assets/js/chart.js"></script>
 
+<!-- Datetimepicker JS -->
+<script src="assets/js/moment.min.js"></script>
+<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+
 <!-- Custom JS -->
 <script src="assets/js/app.js"></script>
+<script src="ajax/add-admin.js"></script>
+
+
+<!-- Mask JS -->
+<script src="assets/js/jquery.maskedinput.min.js"></script>
+<script src="assets/js/mask.js"></script>
 
 </body>
 </html>

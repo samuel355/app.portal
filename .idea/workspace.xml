@@ -2,82 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19380339-5053-44e3-b609-4115eee29290" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coordinator-reset-password.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student-reset-password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/ajax/add-admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/ajax/add-student.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/ajax/admin-login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/assets/img/admin/IMG_0303.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/assets/img/admin/IMG_0310.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/assets/img/admin/IMG_0826.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/assets/img/students/DDNV1387.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/assets/img/students/agnt4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/includes/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/php/add-admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/php/add-student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin/php/admin-login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/coordinators/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/students/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin-login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cordinator-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/cordinator-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-reset-password.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coordinator-reset-password.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordinator-login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/scripts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/admin-profile.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/create-estimate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/create-invoice.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/data-tables.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/departments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/designations.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/edit-estimate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/edit-invoice.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/employees.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/estimate-view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/estimates.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/events.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/expense-reports.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/expenses.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/coordinators/includes/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/includes/top-nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/coordinators/includes/top-nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/coordinators/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/invoice-reports.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/invoice-settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/invoices.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/overtime.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/payroll-items.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/salary-settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/salary-view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/salary.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/coordinators/settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/admin-profile.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/chat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/compose.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/contacts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/coordinator-profile.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/coordinators-attendance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/coordinators-list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/coordinators.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/create-estimate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/create-invoice.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/data-tables.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/departments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/designations.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/edit-estimate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/edit-invoice.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/email-settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/employees.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/estimate-view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/estimates.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/events.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/expense-reports.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/expenses.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/includes/main-top.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/students/includes/main-top.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/students/includes/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/includes/top-nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/students/includes/top-nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/students/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/invoice-reports.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/invoice-settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/invoices.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/mail-view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/messages.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/notifications-settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/overtime.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/payroll-items.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/salary-settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/salary-view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/salary.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/students-attendance.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/students/students-attendance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/students-list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/students/students.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reset-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin-reset-password.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/student-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/includes/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/includes/script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/admin/students.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin/students.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-reset-password.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -112,8 +67,9 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/coordinators" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -125,11 +81,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\app.portal" />
+      <recent name="C:\xampp\htdocs\app.portal\modules\coordinators" />
       <recent name="C:\xampp\htdocs\app.portal\modules\students" />
       <recent name="C:\xampp\htdocs\app.portal\modules\admin" />
-      <recent name="C:\xampp\htdocs\app.portal\modules\cordinator" />
-      <recent name="C:\xampp\htdocs\app.portal\images" />
+      <recent name="C:\xampp\htdocs\app.portal\includes" />
+      <recent name="C:\xampp\htdocs\app.portal\modules\admin\assets\img" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -162,7 +118,13 @@
       <workItem from="1603382493134" duration="14631000" />
       <workItem from="1603452851022" duration="3940000" />
       <workItem from="1603471550109" duration="8179000" />
-      <workItem from="1603538340141" duration="13686000" />
+      <workItem from="1603538340141" duration="15007000" />
+      <workItem from="1603718031162" duration="357000" />
+      <workItem from="1603738282806" duration="704000" />
+      <workItem from="1603787340656" duration="12515000" />
+      <workItem from="1603807699807" duration="25574000" />
+      <workItem from="1603883116126" duration="1701000" />
+      <workItem from="1603893160466" duration="16891000" />
     </task>
     <servers />
   </component>
@@ -173,13 +135,29 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603624526976">
+    <state x="291" y="4" key="#SQL_Dialects" timestamp="1603833348549">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="466" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1603624526976" />
-    <state x="611" y="337" key="NewPhpFileDialog" timestamp="1603402386111">
+    <state x="291" y="4" key="#SQL_Dialects/0.0.1600.860@0.0.1600.860" timestamp="1603833348549" />
+    <state x="466" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603920366357">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="611" y="337" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1603402386111" />
+    <state x="466" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1603920366357" />
+    <state x="529" y="127" key="FileChooserDialogImpl" timestamp="1603901270789">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="529" y="127" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1603901270789" />
+    <state x="527" y="203" key="NewPhpClassDialog" timestamp="1603787473406">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="527" y="203" key="NewPhpClassDialog/0.0.1600.860@0.0.1600.860" timestamp="1603787473406" />
+    <state x="611" y="337" key="NewPhpFileDialog" timestamp="1603920825043">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="611" y="337" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1603920825043" />
+    <state x="379" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1603827055512">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="379" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1603827055512" />
   </component>
 </project>
