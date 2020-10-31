@@ -1,5 +1,5 @@
-<div class="header">
 
+<div class="header">
     <!-- Logo -->
     <div class="header-left">
         <a href="index.php" class="logo">
@@ -257,12 +257,12 @@
 
         <li class="nav-item dropdown has-arrow main-drop">
             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-							<span class="user-img"><img src="assets/img/profiles/avatar-21.jpg" alt="">
+							<span class="user-img"><img src="assets/img/admin/<?php echo $image;?>" alt=" Admin Image">
 							<span class="status online"></span></span>
-                <span>Admin</span>
+                <span><?php echo $firstname; ?></span>
             </a>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="admin-profile">My Profile</a>
+                <a class="dropdown-item" href="admin-profile?id=<?php echo $data['admin_id'];?>">My Profile</a>
                 <a class="dropdown-item" href="settings">Settings</a>
                 <a class="dropdown-item" href="logout">Logout</a>
             </div>
@@ -274,7 +274,7 @@
     <div class="dropdown mobile-user-menu">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
         <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item" href="profile.php">My Profile</a>
+            <a class="dropdown-item" href="admin-login?id=<?php echo $admin_id;?>">My Profile</a>
             <a class="dropdown-item" href="settings.php">Settings</a>
             <a class="dropdown-item" href="login.php">Logout</a>
         </div>

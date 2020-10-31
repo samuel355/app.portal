@@ -1,7 +1,29 @@
 <?php
-session_start();
-ob_start();
+session_start(); ?>
 
+<?php
+require "db.php";
+if (isset($_SESSION['email'])){
+    $admin_id = $_SESSION['admin_id'];
+    $sql = "SELECT * FROM admin WHERE admin_id =:admin_id";
+    $stmt = $db->prepare($sql);
+    $stmt->execute([
+        ':admin_id' => $admin_id,
+    ]);
+    $data = $stmt->fetch(PDO::FETCH_ASSOC);
+    $firstname = $data['firstname'];
+    $lastname = $data['lastname'];
+    $admin_id = $data['admin_id'];
+    $image = $data['image'];
+    $username = $data['username'];
+    $email = $data['email'];
+    $address = $data['address'];
+    $country = $data['country'];
+    $dob = $data['dob'];
+    $phone = $data['phone'];
+    $registered_on = $data['registered_on'];
+    $gender = $data['gender'];
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

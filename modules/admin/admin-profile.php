@@ -1,3 +1,31 @@
+<?php
+include "includes/db.php";
+session_start();
+ob_start();
+?>
+
+<?php
+if(isset($_GET['admin_id'])){
+    $admin_id = $_GET['admin_id'];
+    $sql = "SELECT * FROM admin WHERE admin_id =:admin_id";
+    $stmt = $db->prepare($sql);
+    $stmt->execute([
+        'admin_id'=>$admin_id
+    ]);
+    $data = $stmt->fetch(PDO::FETCH_ASSOC);
+    $title = $data['title'];
+    $gender = $data['gender'];
+    $image = $data['image'];
+    $username = $data['username'];
+    $email = $data['email'];
+    $address = $data['address'];
+    $country = $data['country'];
+    $dob = $data['dob'];
+    $phone = $data['phone'];
+    $registered_on = $data['registered_on'];
+}
+?>
+
 <?php include "includes/header.php";?>
     <body>
 		<!-- Main Wrapper -->
@@ -38,40 +66,40 @@
 									<div class="profile-view">
 										<div class="profile-img-wrap">
 											<div class="profile-img">
-												<a href="#"><img alt="" src="assets/img/profiles/avatar-02.jpg"></a>
+												<a href="#"><img alt="" src="assets/img/admin/<?php echo $image;?>"></a>
 											</div>
 										</div>
 										<div class="profile-basic">
 											<div class="row">
 												<div class="col-md-5">
 													<div class="profile-info-left">
-														<h3 class="user-name m-t-0 mb-0">Samuel Osei</h3>
+														<h3 class="user-name m-t-0 mb-0"><?php echo $firstname." ". $lastname;?></h3>
 														<h6 class="text-muted">School Administrator</h6>
-														<div class="staff-id">Admin ID : AD-0001</div>
-														<div class="small doj text-muted">Date of Join : 1st Oct 2020</div>
+														<div class="staff-id">Admin ID : <?php echo $admin_id;?></div>
+														<div class="small doj text-muted">Date of Join : <?php echo $registered_on;?></div>
 													</div>
 												</div>
 												<div class="col-md-7">
 													<ul class="personal-info">
 														<li>
 															<div class="title">Phone:</div>
-															<div class="text"><a href="">+233 246 56 2377</a></div>
+															<div class="text"><a href=""><?php echo $phone;?></a></div>
 														</li>
 														<li>
 															<div class="title">Email:</div>
-															<div class="text"><a href="">asamuel355@yahoo.com</a></div>
+															<div class="text"><a href=""><?php echo $email;?></a></div>
 														</li>
 														<li>
 															<div class="title">Birthday:</div>
-															<div class="text">24th July</div>
+															<div class="text"><?php echo $dob;?></div>
 														</li>
 														<li>
 															<div class="title">Address:</div>
-															<div class="text">1861 Bayonne Ave, Manchester Township, NJ, 08759</div>
+															<div class="text"><?php echo $address;?></div>
 														</li>
 														<li>
 															<div class="title">Gender:</div>
-															<div class="text">Male</div>
+															<div class="text"><?php echo $gender;?></div>
 														</li>
 													</ul>
 												</div>

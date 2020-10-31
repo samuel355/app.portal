@@ -16,5 +16,10 @@
     "url": "https://github.com/samuel355/app.portal/issues"
   },
   "homepage": "https://github.com/samuel355/app.portal#readme",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "ckeditor4": "^4.15.0"
+  }
 }

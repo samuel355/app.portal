@@ -1,4 +1,6 @@
+
 <?php include "includes/header.php";?>
+
     <body class="account-page">
 	
 		<!-- Main Wrapper -->
@@ -47,12 +49,12 @@
                                 </div>
                             </div>
                             <!--/notifications-->
-							
+
 							<!-- Account Form -->
 							<form id="admin-login" role="form" enctype="multipart/form-data" method="POST">
 								<div class="form-group">
-									<label>Username or ID</label>
-									<input class="form-control" type="text" name="username_id" id="username_id">
+									<label>Email</label>
+									<input class="form-control" type="email" name="email" id="email">
 								</div>
 								<div class="form-group">
 									<div class="row">

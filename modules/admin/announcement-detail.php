@@ -33,14 +33,38 @@
 					
 					<!-- Content Starts -->
 					<div class="row">
+                        <?php
+                            if (isset($_GET['id'])){
+                                $post_id = $_GET['id'];
+                                $sql = "SELECT * FROM announcements WHERE id = :id";
+                                $stmt = $db->prepare($sql);
+                                $stmt->execute([
+                                   ':id'=>$post_id
+                                ]);
+                                $announcement = $stmt->fetch(PDO::FETCH_ASSOC);
+                                $an_title = $announcement['title'];
+                                $an_content = $announcement['message'];
+                                $an_author = $announcement['author_firstname'];
+                                $an_date = $announcement['posted_date'];
+
+                                $sql1 = "UPDATE announcements SET post_views = post_views + 1 WHERE post_id =:id";
+                                $stmt = $db->prepare($sql1);
+                                $stmt->execute([
+                                    ':id' => $post_id
+                                ]);
+
+                            }else{
+                                echo "<div class='alert alert-danger'> Soryy An error Occured</div>";
+                            }
+                        ?>
 						<div class="col-md">
 							<div class="card">
 								<div class="card-body">
 									<article class="post">
-										<h1 class="post-title">Announcement Title </h1>
+										<h1 class="post-title"><?php echo $an_title;?></h1>
 										<ul class="meta">
-											<li><span>Created :</span> Feb, 04, 2016</li>
-											<li><span>Views :</span> 1198</li>
+											<li><span>Created :</span> <?php echo $an_date;?></li>
+											<li><span>Author :</span> <?php echo $an_author; ?> </li>
 										</ul>
 										<p>
 										   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
@@ -57,6 +81,8 @@
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 										</p>
 									</article>
+                                    <button class="btn btn-outline-primary btn-sm">Edit</button>
+                                    <button class="btn btn-sm btn-outline-danger">Delete</button>
 								</div>
 							</div>
 						</div>

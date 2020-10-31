@@ -5,7 +5,7 @@
                 <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                 <div class="dash-widget-info">
                     <h3>4</h3>
-                    <span>Ongoing Projects</span>
+                    <span> Projects</span>
                 </div>
             </div>
         </div>

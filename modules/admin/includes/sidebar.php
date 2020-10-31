@@ -70,7 +70,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="clients"><i class="la la-close"></i> <span>Logout</span></a>
+                    <a href="logout"><i class="la la-close"></i> <span>Logout</span></a>
                 </li>
             </ul>
         </div>
