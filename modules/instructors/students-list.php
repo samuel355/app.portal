@@ -30,8 +30,8 @@
 							<div class="col-auto float-right ml-auto">
 								<a href="#" class="btn add-btn" data-toggle="modal" data-target="#add_employee"><i class="fa fa-plus"></i> Add Coordinator</a>
 								<div class="view-icons">
-									<a href="coordinators" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
-									<a href="coordinators-list" class="list-view btn btn-link active"><i class="fa fa-bars"></i></a>
+									<a href="instructors.php" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
+									<a href="instructors-list.php" class="list-view btn btn-link active"><i class="fa fa-bars"></i></a>
 								</div>
 							</div>
 						</div>

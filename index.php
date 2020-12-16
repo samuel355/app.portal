@@ -40,7 +40,7 @@
 										<img class="icon style1 solid major" src="images/workers.png" alt="">
 										<h3>Cordinators</h3>
 										<p>Login to access your dashbaord</p>
-										<a href="modules/coordinators/login" class="button">Login</a>
+										<a href="modules/instructors/login" class="button">Login</a>
 									</li>
 									<li>
 										<img class="icon style1 solid major" src="images/male210_2.png" alt="">

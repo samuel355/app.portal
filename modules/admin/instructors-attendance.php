@@ -120,7 +120,7 @@
 											<td>
 												<h2 class="table-avatar">
 													<a class="avatar avatar-xs" href="profile.php"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a>
-													<a href="coordinator-profile">John Doe</a>
+													<a href="instructor-profile.php">John Doe</a>
 												</h2>
 											</td>
 											<td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i class="fa fa-check text-success"></i></a></td>
@@ -168,7 +168,7 @@
 											<td>
 												<h2 class="table-avatar">
 													<a class="avatar avatar-xs" href="profile.php"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a>
-													<a href="coordinator-profile">Richard Miles</a>
+													<a href="instructor-profile.php">Richard Miles</a>
 												</h2>
 											</td>
 											<td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i class="fa fa-check text-success"></i></a></td>
@@ -206,7 +206,7 @@
 											<td>
 												<h2 class="table-avatar">
 													<a class="avatar avatar-xs" href="profile.php"><img alt="" src="assets/img/profiles/avatar-10.jpg"></a>
-													<a href="coordinator-profile">John Smith</a>
+													<a href="instructor-profile.php">John Smith</a>
 												</h2>
 											</td>
 											<td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i class="fa fa-check text-success"></i></a></td>
@@ -244,7 +244,7 @@
 											<td>
 												<h2 class="table-avatar">
 													<a class="avatar avatar-xs" href="profile.php"><img alt="" src="assets/img/profiles/avatar-05.jpg"></a>
-													<a href="coordinator-profile">Mike Litorus</a>
+													<a href="instructor-profile.php">Mike Litorus</a>
 												</h2>
 											</td>
 											<td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i class="fa fa-check text-success"></i></a></td>
@@ -282,7 +282,7 @@
 											<td>
 												<h2 class="table-avatar">
 													<a class="avatar avatar-xs" href="profile.php"><img alt="" src="assets/img/profiles/avatar-11.jpg"></a>
-													<a href="coordinator-profile">Wilmer Deluna</a>
+													<a href="instructor-profile.php">Wilmer Deluna</a>
 												</h2>
 											</td>
 											<td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i class="fa fa-check text-success"></i></a></td>
@@ -320,7 +320,7 @@
 											<td>
 												<h2 class="table-avatar">
 													<a class="avatar avatar-xs" href="profile.php"><img alt="" src="assets/img/profiles/avatar-12.jpg"></a>
-													<a href="coordinator-profile">Jeffrey Warden</a>
+													<a href="instructor-profile.php">Jeffrey Warden</a>
 												</h2>
 											</td>
 											<td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i class="fa fa-check text-success"></i></a></td>
@@ -358,7 +358,7 @@
 											<td>
 												<h2 class="table-avatar">
 													<a class="avatar avatar-xs" href="profile.php"><img alt="" src="assets/img/profiles/avatar-13.jpg"></a>
-													<a href="coordinator-profile">Bernardo Galaviz</a>
+													<a href="instructor-profile.php">Bernardo Galaviz</a>
 												</h2>
 											</td>
 											<td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i class="fa fa-check text-success"></i></a></td>
@@ -396,7 +396,7 @@
 											<td>
 												<h2 class="table-avatar">
 													<a class="avatar avatar-xs" href="profile.php"><img alt="" src="assets/img/profiles/avatar-01.jpg"></a>
-													<a href="coordinator-profile">Lesley Grauer</a>
+													<a href="instructor-profile.php">Lesley Grauer</a>
 												</h2>
 											</td>
 											<td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i class="fa fa-check text-success"></i></a></td>
@@ -434,7 +434,7 @@
 											<td>
 												<h2 class="table-avatar">
 													<a class="avatar avatar-xs" href="profile.php"><img alt="" src="assets/img/profiles/avatar-16.jpg"></a>
-													<a href="coordinator-profile">Jeffery Lalor</a>
+													<a href="instructor-profile.php">Jeffery Lalor</a>
 												</h2>
 											</td>
 											<td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i class="fa fa-check text-success"></i></a></td>
@@ -472,7 +472,7 @@
 											<td>
 												<h2 class="table-avatar">
 													<a class="avatar avatar-xs" href="profile.php"><img alt="" src="assets/img/profiles/avatar-04.jpg"></a>
-													<a href="coordinator-profile">Loren Gatlin</a>
+													<a href="instructor-profile.php">Loren Gatlin</a>
 												</h2>
 											</td>
 											<td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i class="fa fa-check text-success"></i></a></td>

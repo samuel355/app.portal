@@ -19,7 +19,7 @@
                         <li><a href="inbox">Email</a></li>
                     </ul>
                 </li>
-                <li><a href="coordinators-attendance"> <i class="la la-bookmark-o"></i> <span>Attendance </span></a></li>
+                <li><a href="instructors-attendance.php"> <i class="la la-bookmark-o"></i> <span>Attendance </span></a></li>
                 <li class="submenu">
                     <a href="#" ><i class="la la-user"></i> <span> Students</span> <span class="menu-arrow"></span></a>
                     <ul style="display: none;">

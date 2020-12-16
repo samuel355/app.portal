@@ -262,7 +262,7 @@
                 <span>Coordinator</span>
             </a>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="coordinator-profile">My Profile</a>
+                <a class="dropdown-item" href="instructor-profile.php">My Profile</a>
                 <a class="dropdown-item" href="logout">Logout</a>
             </div>
         </li>

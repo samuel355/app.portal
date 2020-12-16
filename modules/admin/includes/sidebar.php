@@ -22,8 +22,8 @@
                 <li class="submenu">
                     <a href="#" ><i class="la la-user"></i> <span> Coordinators</span> <span class="menu-arrow"></span></a>
                     <ul style="display: none;">
-                        <li><a href="coordinators">All Cordinators</a></li>
-                        <li><a href="coordinators-attendance">Attendance </a></li>
+                        <li><a href="instructors.php">All Cordinators</a></li>
+                        <li><a href="instructors-attendance.php">Attendance </a></li>
                     </ul>
                 </li>
                 <li class="submenu">

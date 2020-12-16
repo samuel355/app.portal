@@ -195,8 +195,8 @@ if (empty($_SESSION)){
                                             <tr>
                                                 <td>
                                                     <h2 class="table-avatar">
-                                                        <a href="coordinator-profile" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-                                                        <a href="coordinator-profile">Barry Cuda <span>CEO</span></a>
+                                                        <a href="instructor-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
+                                                        <a href="instructor-profile.php">Barry Cuda <span>CEO</span></a>
                                                     </h2>
                                                 </td>
                                                 <td>barrycuda@example.com</td>
@@ -216,8 +216,8 @@ if (empty($_SESSION)){
                                             <tr>
                                                 <td>
                                                     <h2 class="table-avatar">
-                                                        <a href="coordinator-profile" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-                                                        <a href="coordinator-profile">Tressa Wexler <span>Manager</span></a>
+                                                        <a href="instructor-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
+                                                        <a href="instructor-profile.php">Tressa Wexler <span>Manager</span></a>
                                                     </h2>
                                                 </td>
                                                 <td>tressawexler@example.com</td>
@@ -237,8 +237,8 @@ if (empty($_SESSION)){
                                             <tr>
                                                 <td>
                                                     <h2 class="table-avatar">
-                                                        <a href="coordinator-profile" class="avatar"><img alt="" src="assets/img/profiles/avatar-07.jpg"></a>
-                                                        <a href="coordinator-profile">Ruby Bartlett <span>CEO</span></a>
+                                                        <a href="instructor-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-07.jpg"></a>
+                                                        <a href="instructor-profile.php">Ruby Bartlett <span>CEO</span></a>
                                                     </h2>
                                                 </td>
                                                 <td>rubybartlett@example.com</td>
@@ -258,8 +258,8 @@ if (empty($_SESSION)){
                                             <tr>
                                                 <td>
                                                     <h2 class="table-avatar">
-                                                        <a href="coordinator-profile" class="avatar"><img alt="" src="assets/img/profiles/avatar-06.jpg"></a>
-                                                        <a href="coordinator-profile"> Misty Tison <span>CEO</span></a>
+                                                        <a href="instructor-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-06.jpg"></a>
+                                                        <a href="instructor-profile.php"> Misty Tison <span>CEO</span></a>
                                                     </h2>
                                                 </td>
                                                 <td>mistytison@example.com</td>
@@ -279,8 +279,8 @@ if (empty($_SESSION)){
                                             <tr>
                                                 <td>
                                                     <h2 class="table-avatar">
-                                                        <a href="coordinator-profile" class="avatar"><img alt="" src="assets/img/profiles/avatar-14.jpg"></a>
-                                                        <a href="coordinator-profile"> Daniel Deacon <span>CEO</span></a>
+                                                        <a href="instructor-profile.php" class="avatar"><img alt="" src="assets/img/profiles/avatar-14.jpg"></a>
+                                                        <a href="instructor-profile.php"> Daniel Deacon <span>CEO</span></a>
                                                     </h2>
                                                 </td>
                                                 <td>danieldeacon@example.com</td>
@@ -302,7 +302,7 @@ if (empty($_SESSION)){
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="coordinators-list">View all Coordinators</a>
+                                    <a href="instructors-list.php">View all Coordinators</a>
                                 </div>
                             </div>
                         </div>
